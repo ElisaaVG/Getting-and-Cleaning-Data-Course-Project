@@ -27,27 +27,41 @@ Create tidy data set and write tidy data to output file
 
 #### Variables: Tables
 `activity_labels` = six activity codes and corresponding activity names
+
 `features` = feature names for `test_x`, `train_x`
 
 `test_subject` = test set subject number
+
 `test_x` = test set feature measurements
+
 `test_y` = test set activity
 
 `train_subject` = train set subject number
+
 `train_x` = train set feature measurements
+
 `train_y` = train set activity
+
 
 #### Variables: Combined data sets
 `test` = `test_subject`,`test_y`, `test_x` combined by columns
+
 `train` = `train_subject`, `train_y`, `train_x` combined by columns
+
 `data` = `test`, `train` combined by rows
+
 
 #### Variables: Column names
 `names.group` = set of names corresponding to `data`
+
 `mean_std_columns` = subject, activity, and all features with mean or standard deviation
+
 `reduced_data` = `data` subsetted with `mean_std_columns`
+
 `reduced_names` = `names.group` subsetted with `mean_std_columns`
+
 
 ### Variables: Tidy data set
 `tidy.data` = data set with average of each variable, by activity, by subject
+
 `validate` = call to read in tidy data set produced and validate steps
