@@ -21,11 +21,11 @@ Use series of substitutions to rename variables.
 Create tidy data set and write tidy data to output file
 
 ## Variables
-#### Variables: Data source
+#### Data source
 `zip.url`  = URL for zip archive of source data
 
 
-#### Variables: Tables
+#### Tables
 `activity_labels` = six activity codes and corresponding activity names
 
 `features` = feature names for `test_x`, `train_x`
@@ -43,7 +43,7 @@ Create tidy data set and write tidy data to output file
 `train_y` = train set activity
 
 
-#### Variables: Combined data sets
+#### Combined data sets
 `test` = `test_subject`,`test_y`, `test_x` combined by columns
 
 `train` = `train_subject`, `train_y`, `train_x` combined by columns
@@ -51,7 +51,7 @@ Create tidy data set and write tidy data to output file
 `data` = `test`, `train` combined by rows
 
 
-#### Variables: Column names
+#### Column names
 `names.group` = set of names corresponding to `data`
 
 `mean_std_columns` = subject, activity, and all features with mean or standard deviation
@@ -61,7 +61,7 @@ Create tidy data set and write tidy data to output file
 `reduced_names` = `names.group` subsetted with `mean_std_columns`
 
 
-### Variables: Tidy data set
+#### Tidy data set
 `tidy.data` = data set with average of each variable, by activity, by subject
 
 `validate` = call to read in tidy data set produced and validate steps
