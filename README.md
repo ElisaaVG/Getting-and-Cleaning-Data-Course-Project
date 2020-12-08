@@ -8,7 +8,7 @@ The source data set that this project was based on was obtained from the [Human 
 
 
 ## Files
-This repository contains 3 main files:
+This repository contains 4 main files:
 
  - `README.md` This file provides an overview of the data set and how it was created.
  - `run_analysis.R` This script is used to build up and perform the analysis on the required sample data.
